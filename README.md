@@ -22,26 +22,14 @@ sh start.sh dev|test|product
 run.py 
 
 config/
-       configs/
-            ...
-       __init__.py     
+      
 core/
-     __init__.py
-     fetcher.py
-     input.py
-     output.py
+   
 dbs/
-    __init__.py
-    mongodb.py
-    mssql.py
+    
 utils/
-      __init__.py
-      uemail.py
-      uerror.py
-      uio.py
+    
 log/
-    __init__.py
-    log_handler.py
 
 start.sh
 
@@ -64,6 +52,6 @@ testmssql.py
 - 文档
 
 ### requirements.txt ###
-依赖环境
+-依赖环境
 
 
