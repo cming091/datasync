@@ -52,6 +52,6 @@ testmssql.py
 - 文档
 
 ### requirements.txt ###
--依赖环境
+- 依赖环境
 
 
