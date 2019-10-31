@@ -1,6 +1,3 @@
-## 地址 ##
-https://kintergration.chinacloudapp.cn:3000/chenshouming/datasync2.git
-
 ### 执行 ###
 设置环境变量 export ENV_CONF=dev 或者     export ENV_CONF=test
              export ENV_CONF=product     选择开发环境跟生产环境
@@ -25,37 +22,36 @@ sh start.sh dev|test|product
 run.py 
 
 config/
-       bconfigs/
+       configs/
             ...
-                          
+       __init__.py     
 core/
+     __init__.py
      fetcher.py
      input.py
      output.py
 dbs/
+    __init__.py
     mongodb.py
     mssql.py
 utils/
-      util.py
+      __init__.py
+      uemail.py
+      uerror.py
+      uio.py
 log/
+    __init__.py
     log_handler.py
 
-datastart.sh
+start.sh
 
 README.md
 
-mssql_test.py
-
-mssql_test.py
+testmssql.py
 
 
-### mssql_test.py ###
-- 创建mssql数据库测试数据库
 
-### mongo_test.py ###
-- 测试mongo数据库
-
-### datastart.sh ###
+### start.sh ###
 - 启动
 
 ### run.py ###
@@ -67,27 +63,7 @@ mssql_test.py
 ### readme.md ###
 - 文档
 
-### fetcher.py ###
-获取数据
-
-### input.py ###
-输入部分
-
-### output.py ###
-输出部分
-
-### log ###
-记录运行log
 ### requirements.txt ###
 依赖环境
-
-
-
-########crontab ########
-
-0 8 * * *  cd /home/app/soft/kettle/datasync&&/bin/bash  /home/app/soft/kettle/datasync/datastart.sh 
-
-0 0 1 * *  cd /home/app/soft/kettle/datasync&&/bin/bash  /home/app/soft/kettle/datasync/clean_log.sh 
-
 
 
