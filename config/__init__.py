@@ -18,14 +18,14 @@ class Settings(object):
                      "oParams": '127.0.0.1;SA;Aa123456;test',
                      },
             "dev": {
-                    "fParams":[]
-                     "iParams": []
+                    "fParams":[],
+                     "iParams": [],
                      "oParams": '',
                      },
 
             "product": {
-                     "fParams": []
-                     "iParams": []
+                     "fParams": [],
+                     "iParams": [],
                      "oParams": '',
                      },
         }
