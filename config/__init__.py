@@ -1,7 +1,9 @@
 
 class Settings(object):
-    email=('chenshouming091@163.com','cming091', 'kettle',
-           ['chenshouming@hydsoft.com', 'liuxuetong@hydsoft.com'],
+    email=('test@163.com',
+           'cming091',
+           'kettle',
+           ['test@163.com'],
            'smtp.163.com',)
     retryTimes = 2
     logPath = '/Users/mac/Desktop/product2/datasync2/log/log'
